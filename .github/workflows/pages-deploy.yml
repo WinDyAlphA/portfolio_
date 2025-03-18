@@ -52,4 +52,4 @@ jobs:
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
           
           # Synchroniser le contenu du site
-          rsync -avz --delete _site/ root@206.189.247.14:/var/www/html/
+          rsync -avz --delete _site/ root@206.189.247.14:/var/www/html/_site/
