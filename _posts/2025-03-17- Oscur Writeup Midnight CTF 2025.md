@@ -1,5 +1,5 @@
 ---
-title: Oscur Writeup - Reverse Engineering Challenge - Midnight CTF 2025
+title: Oscur Writeup Reverse Engineering Midnight CTF 2025
 date: 2025-04-13 21:33:21 +1
 categories: [CTF, Reverse]
 tags: [CTF, Writeup, Midnight, Reverse]
