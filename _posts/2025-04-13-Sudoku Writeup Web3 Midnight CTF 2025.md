@@ -1,6 +1,6 @@
 ---
 title: Sudoku Writeup Web3 Midnight CTF 2025
-date: 2025-04-13 22:21:33 +1
+date: 2025-04-13 21:21:33 +1
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 categories: [CTF, Web3]
 tags: [CTF, Writeup, Midnight, Web3]
