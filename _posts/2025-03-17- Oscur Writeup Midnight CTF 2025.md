@@ -5,8 +5,6 @@ categories: [CTF, Reverse]
 tags: [CTF, Writeup, Midnight, Reverse]
 ---
 
-# Oscur Writeup - Reverse Engineering Challenge - Midnight CTF 2025
-
 ## Introduction
 
 We are given a PE file:

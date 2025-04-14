@@ -6,8 +6,6 @@ categories: [CTF, Web3]
 tags: [CTF, Writeup, Midnight, Web3]
 ---
 
-# Alderaan Smart Contract Challenge
-
 ## Looking at the Contract
 
 Let's check out this smart contract challenge. The contract uses Solidity version 0.8.26, which means it has built-in safety features that prevent overflows and handle errors better.

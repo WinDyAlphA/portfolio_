@@ -6,8 +6,6 @@ categories: [CTF, Web3]
 tags: [CTF, Writeup, Midnight, Web3]
 ---
 
-# Sublocku - Smart Contract Sudoku Challenge Writeup
-
 ## Introduction
 
 The Sublocku challenge shows how Sudoku validation works on the Ethereum blockchain. This challenge mixes blockchain development, storage handling, and puzzle-solving code. What makes it cool is how it uses Ethereum's storage patterns to run a game.
