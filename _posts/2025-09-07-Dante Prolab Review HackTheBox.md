@@ -9,13 +9,14 @@ tags: [Certification, Prolab, HackTheBox]
 
 Long time no see, I was working on the CPTS and this prolab.
 
-For the CPTS, I'll wait until I flag the Zephyr prolab then this should be good
-
 So this prolab was a lot of fun and headaches.
 
+
+## Flex time   
+![Dante Certificate](https://raw.githubusercontent.com/WinDyAlphA/miscDownloads/refs/heads/main/dante.png)
 ## Overview
 
-Dante is one of HackTheBox's most challenging prolabs, designed to simulate a realistic corporate network environment. This prolab focuses heavily on Active Directory exploitation, lateral movement, and privilege escalation techniques across multiple interconnected machines.
+Dante is one of HackTheBox's prolabs, designed to simulate a realistic corporate network environment. This prolab focuses heavily on Active Directory exploitation, lateral movement, and privilege escalation techniques across multiple interconnected machines.
 
 The lab consists of 14 machines total, with a mix of Windows and Linux systems that form a complex network topology. What makes Dante particularly challenging is the realistic network segmentation and the need to pivot through multiple systems to reach your final objectives.
 
@@ -31,7 +32,6 @@ The first machine required careful enumeration of web services and identifying p
 This prolab provided excellent practice with:
 - Kerberoasting attacks
 - ASREPRoasting
-- Golden/Silver ticket attacks
 - DCSync attacks
 - Bloodhound enumeration and analysis
 
