@@ -14,6 +14,7 @@ So this prolab was a lot of fun and headaches.
 
 ## Flex time   
 ![Dante Certificate](https://raw.githubusercontent.com/WinDyAlphA/miscDownloads/refs/heads/main/dante.png)
+
 ## Overview
 
 Dante is one of HackTheBox's prolabs, designed to simulate a realistic corporate network environment. This prolab focuses heavily on Active Directory exploitation, lateral movement, and privilege escalation techniques across multiple interconnected machines.
