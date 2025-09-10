@@ -1,5 +1,5 @@
 ---
-title: Dante Prolab Review HackTheBox
+title: Dante Prolab *Not a* Review HackTheBox
 date: 2025-09-06 12:41:42 +1
 categories: [Certification, Prolab]
 tags: [Certification, Prolab, HackTheBox]
