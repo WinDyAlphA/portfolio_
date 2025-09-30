@@ -164,4 +164,4 @@ This vulnerability is being reported following responsible disclosure practices.
 
 - [GroupOffice Official Website](https://www.group-office.com/)
 - [OWASP Code Injection Prevention](https://owasp.org/www-community/attacks/Code_Injection)
-- [CWE-94: Improper Control of Generation of Code](https://cwe.mitre.org/data/definitions/94.html)
+- [CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')](https://cwe.mitre.org/data/definitions/95.html)
