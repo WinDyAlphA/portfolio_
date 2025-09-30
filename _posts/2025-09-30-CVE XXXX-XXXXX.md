@@ -128,6 +128,7 @@ Replace the vulnerable code in `FunctionField.php`:
 // VULNERABLE CODE (Line 65)
 eval("\$result = " . $f . ";");
 
+
 // SECURE ALTERNATIVE
 try {
     // Use a safe mathematical expression evaluator
