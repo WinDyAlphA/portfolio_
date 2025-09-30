@@ -1,3 +1,10 @@
+---
+title: CVE XXXX-XXXXX
+date: 2025-09-30 12:14:12 +1
+categories: [CVE]
+tags: [CVE, RCE]
+---
+
 # GroupOffice Remote Code Execution Vulnerability Report
 
 ## Executive Summary
@@ -140,8 +147,8 @@ try {
 
 ## Credit
 
-Discovered by: Noah "nxvh" Heraud
-Contact: heraud260@gmail.com
+Discovered by: Noah "nxvh" Heraud  
+Contact: heraud260@gmail.com  
 
 ## Responsible Disclosure
 
