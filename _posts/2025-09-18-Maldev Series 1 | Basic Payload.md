@@ -1,7 +1,7 @@
 ---
 title: Maldev Series 1 | Basic Payload
 date: 2025-09-18 14:21:54 +1
-categories: [Maldev, basic]
+categories: [Maldev, Basic]
 tags: [Maldev, Malware]
 ---
 

@@ -13,7 +13,7 @@ A critical Remote Code Execution (RCE) vulnerability has been discovered in Grou
 
 ## Vulnerability Details
 
-**Product**: GroupOffice  
+**Product**: [GroupOffice](https://github.com/Intermesh/groupoffice)
 **Affected Component**: Custom Field Function Field Type  
 **Vulnerability Type**: Remote Code Execution (RCE)  
 **Severity**: Critical (CVSS 3.1: 9.1)  
