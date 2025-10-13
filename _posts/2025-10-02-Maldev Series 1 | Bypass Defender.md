@@ -4,7 +4,6 @@ date: 2025-10-01 11:56:03 +0100
 categories: [Maldev, Basic]
 tags: [Maldev, Malware]
 ---
-# Bypassing Windows Defender
 
 Hello guys, this is the episode 2 of the maldev series.
 
@@ -32,7 +31,7 @@ You are far from the reality, you just need to encrypt msfvenom payload with AES
 <aside>
 💡
 
-In this episode I’ll use AES encryption, RC4 is cool too with the use of SystemFunction032, but I’ll stick with AES, but keep in mind that for evading Windows Defender this doesn’t matter
+In this episode I’ll use AES encryption, RC4 is cool too with the use of SystemFunction032, but I’ll stick with AES, but keep in mind that for evading Windows Defender this doesn’t matter.
 
 </aside>
 
@@ -40,11 +39,11 @@ In this episode I’ll use AES encryption, RC4 is cool too with the use of Syste
 
 ### 1. Copy-paste the malware on the first stage
 
-No explanation needed :3
+No explanation needed.
 
 ### 2. Change the plaintext payload by the encrypted payload
 
-So i suggest you to create a new file, where you’ll paste the plaintext msfvenom payload
+So i suggest you to create a new file, where you’ll paste the plaintext msfvenom payload.
 
 you’ll also need to define size of the **IV** and the **KEY.**
 
@@ -53,7 +52,7 @@ you’ll also need to define size of the **IV** and the **KEY.**
 #define IVSIZE 16    // 16 bytes for AES
 ```
 
-I suggest you to create a function to generate random bytes (for the key and the IV)
+I suggest you to create a function to generate random bytes (for the key and the IV).
 
 ```c
 // Generate random bytes of size sSize
@@ -201,7 +200,7 @@ byte shellcode[288] = {
 };
 ```
 
-We’ll use this in the next file to execute the shellcode
+We’ll use this in the next file to execute the shellcode.
 
 ### 3. Decrypt the payload before writing the bytes
 
@@ -209,7 +208,7 @@ So, you remember when we used the `WriteProcessMemory` function?
 
 In our main file we'll store the encrypted payload then we'll decrypt the shellcode then write the process memory.
 
-So this is pretty simple, you just need this function 
+So this is pretty simple, you just need this function :
 
 ```c
 
@@ -227,7 +226,7 @@ void decryptAES() {
 }
 ```
 
-and you need to call it right before writing to the process memory 
+and you need to call it right before writing to the process memory.
 
 ```c
     decryptAES();
@@ -244,7 +243,7 @@ and you need to call it right before writing to the process memory
 
 ### 4. Do some calculus!
 
-and with that you can now do some calculus :3
+and with that you can now do some calculus.
 
 ![Successful execution](https://raw.githubusercontent.com/WinDyAlphA/miscDownloads/refs/heads/main/maldev5.png)
 
