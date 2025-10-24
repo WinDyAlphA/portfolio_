@@ -26,7 +26,7 @@ More challenging and stable than Dante. The machines were well-designed with rea
 
 Some challenges required deep enumeration and thinking outside the box, which was both frustrating and rewarding.
 
-Completed in about 4-5 weeks part-time while working on CPTS modules.
+Completed in about 3-4 weeks part-time while working on CPTS modules.
 
 ---  
 
