@@ -1,8 +1,8 @@
 ---
 title: ECW | LAIN BREAKCORE A Tale of Firmware Emulation and Wasted Hours
 date: 2025-10-22 11:36:03 +0100
-categories: [Reverse Engineering]
-tags: [Reverse Engineering, Firmware]
+categories: [CTF, Reverse]
+tags: [CTF, Reverse Engineering, Firmware, Reverse, iot]
 ---
 
 ## A Note on ECW and Fair Play
