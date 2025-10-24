@@ -12,7 +12,7 @@ After completing Dante, I jumped straight into Zephyr, the final prolab needed f
 This prolab was intense and definitely stepped up the difficulty from Dante.
 
 ## Flex time   
-![Zephyr Certificate](https://raw.githubusercontent.com/WinDyAlphA/miscDownloads/refs/heads/main/Zephyr.png)
+![Zephyr Certificate](https://raw.githubusercontent.com/WinDyAlphA/miscDownloads/refs/heads/main/Zephyr.jpg)
 
 ## So many reviews
 
