@@ -15,6 +15,8 @@ I will share my journey here, my projects, CTFs, and more.
 
 If you want to contact me, you can do it by email at __heraud260@gmail.com__, by twitter [@Nxvh_E](https://twitter.com/Nxvh_E) or by discord at __nxvh.eth__
 
+![CV Noah Heraud.png](https://raw.githubusercontent.com/WinDyAlphA/miscDownloads/refs/heads/main/Noah_Heraud.png)
+
 
 ![alt text](/assets/image.webp)
 
