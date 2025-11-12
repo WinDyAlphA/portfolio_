@@ -249,6 +249,6 @@ and with that you can now do some calculus.
 
 you can find the files here : 
 
-[shellTransAES.c](https://github.com/WinDyAlphA/maldevSamples/blob/main/shellTransAES.c)  
-[basicAES.c](https://github.com/WinDyAlphA/maldevSamples/blob/main/basicAES.c)
+[shellTransAES.c](https://github.com/WinDyAlphA/maldevSamples/blob/main/encryption/encrypt/shellTransAES.c)  
+[basicAES.c](https://github.com/WinDyAlphA/maldevSamples/blob/main/encryption/decrypt/basicAES.c)
 

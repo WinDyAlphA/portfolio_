@@ -224,7 +224,7 @@ If your shellcode was “open calc.exe” you now have a right to do all the cal
 
 ![Screenshot 2025-09-20 162542.png](https://raw.githubusercontent.com/WinDyAlphA/miscDownloads/refs/heads/main/maldev4.png)
 
-You can find the complete file here : [basic.c](https://github.com/WinDyAlphA/maldevSamples/blob/main/basic.c)
+You can find the complete file here : [basic.c](https://github.com/WinDyAlphA/maldevSamples/blob/main/injections/shellcodeRemoteInjection.c)
 
 ---
 
