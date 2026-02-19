@@ -1,7 +1,6 @@
 ---
 title: Regex Writeup Insomni'hack 2025
 date: 2025-03-17 12:01:02 +1
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 categories: [CTF, Misc]
 tags: [CTF, Writeup, Insomnihack]
 ---
