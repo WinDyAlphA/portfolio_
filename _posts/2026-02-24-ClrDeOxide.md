@@ -5,11 +5,7 @@ categories: [Maldev, C2]
 tags: [Maldev, Rust, AMSI, CLR, .NET, C2]
 ---
 
-Remember my last news post where I said I'd drop an execute-assembly PoC in Rust? Well, it's out.
-
 → **[PoC-ClrDeOxide](https://github.com/WinDyAlphA/PoC-ClrDeOxide)** + **[clroxide fork](https://github.com/WinDyAlphA/clroxide)**
-
-This is a follow-up to my [previous post](/posts/News) where I teased the execute-assembly module I was building for the C2. Let me explain what I actually built.
 
 ---
 
