@@ -231,7 +231,7 @@ Single statically-linked executable. Only external dependency is `mscoree.dll` ,
 
 One important note: `SetHostControl` only works on the first CLR initialization in a process. If the CLR is already running (e.g., second execute-assembly in the same implant process), `SetHostControl` return `E_ACCESSDENIED` and we fall back to loading on the existing AppDomain, without the `IHostAssemblyStore` bypass.
 
-Implication: **for a guaranteed bypass on every run, each execute-assembly should happen in a fresh CLR process** (via injection or process spawn). This is exactly how it's handled in the C2 I'm building, one CLR context per run, no reuse.
+Implication: **for a guaranteed bypass on every run, each execute-assembly should happen in a fresh CLR process** (via injection or process spawn). One CLR context per run, no reuse.
 
 ---
 
