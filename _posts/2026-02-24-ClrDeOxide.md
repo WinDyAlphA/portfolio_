@@ -53,7 +53,7 @@ This is the technique I implemented in Rust. Let me walk you through it.
 
 ## Implementation in Rust
 
-The whole thing lives in my [clroxide fork](https://github.com/WinDyAlphA/clroxide). The upstream `clroxide` by b4rtik is a solid library for hosting the CLR from Rust, but it only had `Load_3`. I added the full AMSI bypass on top of it.
+The whole thing lives in my [clroxide fork](https://github.com/WinDyAlphA/clroxide). The upstream `clroxide` by yamakadi is a solid library for hosting the CLR from Rust, but it only had `Load_3`. I added the full AMSI bypass on top of it.
 
 ### Step 1: Register IHostControl before Start()
 
