@@ -17,7 +17,7 @@ This is a follow-up to my [previous post](/posts/News) where I teased the execut
 
 The classic approach, used by most C2s to this day, is `AppDomain.Load(byte[])`. In COM vtable terms, this is `Load_3`. Simple, effective, and... yet fully instrumented by AMSI.
 
-When you call `Load_3`, AMSI gets a direct look at your assembly bytes before CLR even touches them. Any AMSI provider (Defender, third-party EDR, doesn't matter) gets a clean shot at scanning your Rubeus or your Seatbelt in memory. You can patch `AmsiScanBuffer`, sure, but that leaves Copy-on-Write artifacts in `.text` that defenders love to catch. Hardware breakpoint hooks? Same story, just at a different level.
+When you call `Load_3`, AMSI gets a direct look at your assembly bytes before CLR even touches them. Any AMSI provider (Defender, third-party EDR, doesn't matter) gets a clean shot at scanning your Rubeus or your Seatbelt in memory. You can patch `AmsiScanBuffer`, sure, but that leaves Copy-on-Write artifacts in `.text` that defenders love to catch.
 
 The IBM X-Force team published a great research piece on this: [Being a Good CLR Host](https://www.ibm.com/think/x-force/being-a-good-clr-host-modernizing-offensive-net-tradecraft). The short version: AMSI only instruments `Load_3`. There are other methods in the `_AppDomain` COM interface. One of them is `Load_2`.
 
