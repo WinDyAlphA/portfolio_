@@ -17,7 +17,7 @@ If you want to contact me, you can do it by email at __heraud260@gmail.com__, by
 
 ![alt text](/assets/image.webp)
 
-There is my CV (this is in french for now) : 
+There is my CV : 
 ![CV Noah Heraud.png](https://raw.githubusercontent.com/WinDyAlphA/miscDownloads/refs/heads/main/CV_Noah_Heraud_EN.png)
 
 
